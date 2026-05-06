@@ -12,6 +12,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Lettings from "./pages/Lettings";
 import Sales from "./pages/Sales";
+import TrustBar from '@/components/TrustBar';
 
 function Router() {
   return (
@@ -34,13 +35,11 @@ function Router() {
 //   to keep consistent foreground/background color across components
 // - If you want to make theme switchable, pass `switchable` ThemeProvider and use `useTheme` hook
 
+
 function App() {
   return (
     <ErrorBoundary>
-      <ThemeProvider
-        defaultTheme="light"
-        // switchable
-      >
+      <ThemeProvider defaultTheme="light">
         <TooltipProvider>
           <Toaster />
           <div className="flex flex-col min-h-screen">
@@ -48,6 +47,7 @@ function App() {
             <main className="flex-grow">
               <Router />
             </main>
+            <TrustBar />
             <Footer />
           </div>
         </TooltipProvider>
@@ -55,5 +55,4 @@ function App() {
     </ErrorBoundary>
   );
 }
-
 export default App;
