@@ -119,21 +119,7 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow flex flex-col">
-              <div className="h-48 bg-gradient-to-br from-[#1B4D5C] to-[#2B6D7C] flex items-center justify-center">
-                <span className="text-white text-4xl">🔑</span>
-              </div>
-              <div className="p-6 flex flex-col flex-1">
-                <h3 className="text-2xl font-bold text-[#1B4D5C] mb-3">GUARANTEED RENT</h3>
-                <p className="text-gray-700 mb-4">
-                  A fixed monthly payment to your account — regardless of occupancy.
-                  We take on the risk so you never have to worry about void periods.
-                </p>
-                <a href="/services" className="text-[#04055e] font-semibold hover:text-[#FF8B7B] transition-colors mt-auto">
-                  Find Out More →
-                </a>
-              </div>
-            </div>
+            
             <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow flex flex-col">
               <div className="h-48 bg-gradient-to-br from-[#2C3E50] to-[#4A6278] flex items-center justify-center">
                 <span className="text-white text-4xl">🏢</span>

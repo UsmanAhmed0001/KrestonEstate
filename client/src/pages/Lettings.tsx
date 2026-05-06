@@ -49,19 +49,6 @@ const pricingTiers = [
       'Arranging EICR, EPC and gas safety certification to ensure compliance with renting standards',
     ],
   },
-  {
-    name: 'Guaranteed Rent',
-    price: 'Fixed',
-    priceLabel: 'monthly income — guaranteed',
-    highlight: false,
-    includes: [
-      'Guaranteed rent paid to you every month — occupied or not',
-      'No void periods, no chasing tenants for rent',
-      'We take full management responsibility for the property',
-      'Fixed term contract giving you complete income certainty',
-      'Hands-off — we handle everything from start to finish',
-    ],
-  },
 ];
 
 export default function Lettings() {
