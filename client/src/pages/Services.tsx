@@ -82,39 +82,6 @@ export default function Services() {
         </div>
       </section>
 
-      {/* Guaranteed Rent */}
-      <section className="py-16 md:py-24 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            <div>
-              <img
-                src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80"
-                alt="Property keys"
-                className="rounded-lg shadow-lg w-full h-96 object-cover"
-              />
-            </div>
-            <div>
-              <h2 className="text-4xl font-bold text-[#1B4D5C] mb-6">GUARANTEED RENT</h2>
-              <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                With our guaranteed rent scheme, you receive a fixed payment every month —
-                whether the property is occupied or not. We take on the tenancy risk completely,
-                giving you total income certainty for the duration of the contract.
-              </p>
-              <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-                We manage the property end-to-end: finding and vetting tenants, handling
-                all communication, coordinating maintenance, and returning it to you in
-                good condition at the end of the term.
-              </p>
-              <a href="/contact">
-                <Button className="text-white px-8 py-3 rounded-full font-semibold flex items-center gap-2">
-                  ENQUIRE NOW
-                  <ArrowRight className="w-4 h-4" />
-                </Button>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Commercial */}
       <section className="py-16 md:py-24 bg-gray-50">

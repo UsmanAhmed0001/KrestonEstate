@@ -108,8 +108,8 @@ export default function Footer() {
           <a href="/contact" className="text-gray-200 transform transition-transform duration-300 hover:scale-110 transition-colors">
             Contact
           </a>
-          <a href="/lettings" className="text-gray-200 transform transition-transform duration-300 hover:scale-110 transition-colors">
-            Guaranteed Rent
+          <a href="/services" className="text-gray-200 transform transition-transform duration-300 hover:scale-110 transition-colors">
+            Commercial
           </a>
         </div>
 
