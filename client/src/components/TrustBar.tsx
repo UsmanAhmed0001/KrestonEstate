@@ -9,6 +9,7 @@ const logos = [
   { name: 'PrimeLocation', img: '/images/PRIMELOCATION-Logo-Vector.png' },
   { name: 'Zoopla', img: '/images/Zoopla-logo.png' },
   { name: 'GDPR', img: '/images/GDPR-Wide-logo.png' },
+  { name: 'LoopNet', img: '/images/logo-loopnet-red-logo.png' },
 ];
 
 const allLogos = [...logos, ...logos, ...logos];
