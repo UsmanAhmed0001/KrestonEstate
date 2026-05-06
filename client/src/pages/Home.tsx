@@ -21,8 +21,8 @@ export default function Home() {
               </div>
             </div>
             <div className="text-white">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
-                Kreston Estates — property management that actually works.
+              <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight text-white">
+                Property management that actually works.
               </h1>
               <p className="text-lg mb-6 text-gray-100 leading-relaxed">
                 We're a Tooting-based lettings and property management company
