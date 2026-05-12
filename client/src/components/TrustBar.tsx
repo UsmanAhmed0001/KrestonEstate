@@ -1,11 +1,11 @@
 import { useEffect, useRef } from 'react';
 
 const logos = [
-  { name: 'The Property Ombudsman', img: '/images/ThePropertyOmbudsman-logo.png' },
-  { name: 'Approved Code', img: '/images/ApprovedCode-logo.png' },
-  { name: 'Client Money Protect', img: '/images/clientMoneyProtect-logo.png' },
-  { name: 'ICO', img: '/images/InformationCommissioners-logo.png' },
-  { name: 'mydeposits', img: '/images/Mydeposit-logo.png' },
+  //{ name: 'The Property Ombudsman', img: '/images/ThePropertyOmbudsman-logo.png' },
+  //{ name: 'Approved Code', img: '/images/ApprovedCode-logo.png' },
+  //{ name: 'Client Money Protect', img: '/images/clientMoneyProtect-logo.png' },
+  //{ name: 'ICO', img: '/images/InformationCommissioners-logo.png' },
+  //{ name: 'mydeposits', img: '/images/Mydeposit-logo.png' },
   { name: 'PrimeLocation', img: '/images/PRIMELOCATION-Logo-Vector.png' },
   { name: 'Zoopla', img: '/images/Zoopla-logo.png' },
   { name: 'GDPR', img: '/images/GDPR-Wide-logo.png' },

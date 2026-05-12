@@ -13,6 +13,7 @@ import Contact from "./pages/Contact";
 import Lettings from "./pages/Lettings";
 import Sales from "./pages/Sales";
 import TrustBar from '@/components/TrustBar';
+import ScrollToTop from './components/ScrollToTop';
 
 function Router() {
   return (
@@ -44,6 +45,7 @@ function App() {
           <Toaster />
           <div className="flex flex-col min-h-screen">
             <Header />
+            <ScrollToTop />
             <main className="flex-grow">
               <Router />
             </main>
