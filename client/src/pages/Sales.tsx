@@ -28,18 +28,16 @@ export default function Sales() {
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <div className="inline-flex items-center gap-2 mb-4 px-4 py-2 rounded-full text-sm font-bold" style={{ background: 'rgba(232,112,58,0.15)', color: '#E8703A', border: '1px solid rgba(232,112,58,0.3)' }}>
-                Only 0.5% Commission
-              </div>
-              <h1 className="text-4xl md:text-5xl font-bold text-white mb-4" style={{ fontFamily: 'Inter, sans-serif' }}>Sell your property for less, without compromise.</h1>
-              <p className="text-white/70 text-lg mb-8 leading-relaxed">A full sales service at 0.5% commission — roughly a third of what most high-street agents charge, with absolutely no reduction in quality of service.</p>
+              <p className="text-sm font-semibold mb-4" style={{ color: '#E8703A' }}>0.5% commission</p>
+              <h1 className="text-4xl md:text-5xl font-bold text-white mb-4" style={{ fontFamily: 'Inter, sans-serif' }}>Selling your property</h1>
+              <p className="text-white/70 text-lg mb-8 leading-relaxed">A full sales service, from valuation to completion, for 0.5% of the agreed sale price.</p>
               <Link href="/contact" className="inline-flex items-center gap-2 px-6 py-3 text-sm font-bold text-white rounded hover:opacity-90 transition-opacity" style={{ background: '#E8703A' }}>
                 Book Free Valuation <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
             <div>
               <div className="rounded-2xl overflow-hidden img-zoom">
-                <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=900&q=80" alt="Sales" className="w-full h-72 object-cover opacity-80" />
+                <img src="https://images.unsplash.com/photo-1575335235571-2a0adbea59c6?w=900&q=80" alt="Sales" className="w-full h-72 object-cover opacity-80" />
               </div>
             </div>
           </div>

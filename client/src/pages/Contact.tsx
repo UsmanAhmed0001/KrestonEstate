@@ -90,7 +90,7 @@ export default function Contact() {
                     <label className="block text-xs font-bold uppercase tracking-widest text-gray-500 mb-2">Full Name *</label>
                     <input type="text" required value={form.name} onChange={e => setForm({...form, name: e.target.value})}
                       className="w-full px-4 py-3 rounded-lg text-sm outline-none transition-all focus:ring-2" placeholder="John Smith"
-                      style={{ border: '1px solid #e5e7eb', focusRingColor: '#E8703A' }} />
+                      style={{ border: '1px solid #e5e7eb' }} />
                   </div>
                   <div>
                     <label className="block text-xs font-bold uppercase tracking-widest text-gray-500 mb-2">Email *</label>

@@ -12,19 +12,19 @@ function useReveal() {
 
 const services = [
   {
-    icon: '🏠', title: 'Lettings & Management',
+    title: 'Lettings & Management',
     desc: 'Our full lettings service covers everything from finding the right tenant to managing the relationship end-to-end. Choose the package that fits your level of involvement.',
     points: ['Marketing across all major portals', 'Full tenant referencing', 'Tenancy agreement & legal compliance', 'Rent collection & arrears chasing', 'Maintenance coordination', 'Property inspections'],
     href: '/lettings', cta: 'View Lettings Packages',
   },
   {
-    icon: '🔑', title: 'Property Sales',
+    title: 'Property Sales',
     desc: 'Sell your property with a full, professional service at just 0.5% commission. Everything included — nothing extra.',
     points: ['Free honest valuation', 'Professional photography', 'Rightmove, Zoopla & PrimeLocation listing', 'Accompanied viewings', 'Offer negotiation', 'Sale progression through to completion'],
     href: '/sales', cta: 'Book a Valuation',
   },
   {
-    icon: '🏢', title: 'Commercial Property',
+    title: 'Commercial Property',
     desc: 'We manage offices, retail units and mixed-use buildings across South West London with the same hands-on approach as our residential portfolio.',
     points: ['Commercial tenant find', 'Lease management', 'Rent collection', 'Maintenance coordination', 'Compliance management', 'Regular communication'],
     href: '/contact', cta: 'Enquire Now',
@@ -49,7 +49,6 @@ export default function Services() {
         <section key={s.title} className={`py-20 ${i % 2 === 1 ? 'bg-gray-50' : 'bg-white'}`}>
           <div className="max-w-7xl mx-auto px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className={i % 2 === 1 ? 'order-2' : ''} data-kre={i % 2 === 1 ? 'right' : 'left'}>
-              <div className="text-5xl mb-4">{s.icon}</div>
               <p className="text-sm font-bold uppercase tracking-widest mb-3" style={{ color: '#E8703A' }}>0{i + 1}</p>
               <h2 className="text-3xl font-bold mb-4" style={{ color: '#04055e', fontFamily: 'Inter, sans-serif' }}>{s.title}</h2>
               <p className="text-gray-600 leading-relaxed mb-6">{s.desc}</p>
@@ -67,7 +66,7 @@ export default function Services() {
             </div>
             <div className={`${i % 2 === 1 ? 'order-1' : ''} relative`} data-kre={i % 2 === 1 ? 'left' : 'right'}>
               <div className="rounded-2xl overflow-hidden shadow-xl img-zoom">
-                <img src={['https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=900&q=80','https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=900&q=80','https://images.unsplash.com/photo-1497366216548-37526070297c?w=900&q=80'][i]}
+                <img src={['https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=900&q=80','https://images.unsplash.com/photo-1575335235571-2a0adbea59c6?w=900&q=80','https://images.unsplash.com/photo-1497366216548-37526070297c?w=900&q=80'][i]}
                   alt={s.title} className="w-full h-[400px] object-cover" />
               </div>
             </div>

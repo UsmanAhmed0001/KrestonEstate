@@ -45,7 +45,7 @@ export default function About() {
           </div>
           <div className="relative" data-kre="right">
             <div className="rounded-2xl overflow-hidden shadow-xl img-zoom">
-              <img src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=900&q=80" alt="Tooting" className="w-full h-[480px] object-cover" />
+              <img src="https://images.unsplash.com/photo-1575335235571-2a0adbea59c6?w=900&q=80" alt="Terraced houses in London" className="w-full h-[480px] object-cover" />
             </div>
           </div>
         </div>

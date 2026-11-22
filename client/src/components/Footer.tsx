@@ -57,7 +57,7 @@ export default function Footer() {
           <h4 className="text-white font-bold text-sm uppercase tracking-widest mb-6 pb-3 border-b border-white/10">Our Services</h4>
           <ul className="space-y-3">
             {services.map(s => (
-              <li key={s.href}>
+              <li key={s.label}>
                 <Link href={s.href} className="text-white/50 text-sm hover:text-white transition-colors flex items-center gap-2">
                   <span style={{ color: '#E8703A' }}>›</span> {s.label}
                 </Link>

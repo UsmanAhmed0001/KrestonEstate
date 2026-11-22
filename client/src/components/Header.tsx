@@ -41,7 +41,7 @@ export default function Header() {
                 <p className="text-xs uppercase tracking-[0.3em] font-semibold text-[#04055e] leading-none">
                   Kreston
                 </p>
-                <p className="text-xs uppercase tracking-[0.3em] font-semibold text-[#FF8B7B] leading-none mt-0.5">
+                <p className="text-xs uppercase tracking-[0.3em] font-semibold text-[#E8703A] leading-none mt-0.5">
                   Estates
                 </p>
               </div>
@@ -55,7 +55,7 @@ export default function Header() {
                   href={link.href}
                   className={`text-xs uppercase tracking-[0.2em] font-semibold transition-colors pb-0.5 ${
                     location === link.href
-                      ? 'text-[#FF8B7B] border-b border-[#FF8B7B]'
+                      ? 'text-[#E8703A] border-b border-[#E8703A]'
                       : 'text-gray-600 hover:text-[#04055e] border-b border-transparent hover:border-[#04055e]'
                   }`}
                 >
@@ -86,7 +86,7 @@ export default function Header() {
             <Link
               key={link.href}
               href={link.href}
-              className="block text-4xl font-serif font-light text-[#04055e] hover:text-[#FF8B7B] transition-colors"
+              className="block text-4xl font-serif font-light text-[#04055e] hover:text-[#E8703A] transition-colors"
               style={{ transitionDelay: open ? `${i * 60}ms` : '0ms' }}
             >
               {link.label}
