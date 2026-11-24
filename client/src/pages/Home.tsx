@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { ArrowRight, Phone } from 'lucide-react';
 import { Link } from 'wouter';
+import HeroVideo from '@/components/HeroVideo';
 
 /* Fade sections in once as they scroll into view */
 function useReveal() {
@@ -60,13 +61,10 @@ export default function Home() {
     <div className="bg-white overflow-x-hidden">
 
       {/* HERO */}
-      <section
-        className="relative bg-[#04055e] bg-cover bg-center"
-        style={{
-          backgroundImage: `linear-gradient(90deg, rgba(4,5,94,0.92) 0%, rgba(4,5,94,0.75) 45%, rgba(4,5,94,0.25) 100%), url('${img('photo-1560448204-e02f11c3d0e2', 1800)}')`,
-        }}
-      >
-        <div className="max-w-7xl mx-auto px-6 lg:px-8 py-28 md:py-36">
+      <section className="relative bg-[#04055e] overflow-hidden">
+        <HeroVideo poster={img('photo-1560448204-e02f11c3d0e2', 1800)} />
+        <div className="absolute inset-0" style={{ background: 'linear-gradient(90deg, rgba(4,5,94,0.9) 0%, rgba(4,5,94,0.7) 45%, rgba(4,5,94,0.2) 100%)' }} />
+        <div className="relative max-w-7xl mx-auto px-6 lg:px-8 py-28 md:py-40">
           <div className="max-w-2xl">
             <p className="text-sm font-semibold text-[#E8703A] mb-4">Lettings · Sales · Property Management — Tooting, SW17</p>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-[1.1] mb-6" style={{ fontFamily: 'Inter, sans-serif' }}>
